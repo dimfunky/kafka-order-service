@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS}
+
+producer:
+  topic:
+    order:
+      create: order_create
+      cancel: order_cancel
