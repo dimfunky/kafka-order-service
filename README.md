@@ -27,7 +27,15 @@
 
 
 ## Конфигурация
-При разворачивании сервиса отдельно необходимо указать сервер Kafka 
-в переменной окружения `KAFKA_BOOTSTRAP_SERVERS`
+Kafka имеет UI, по умолчанию доступный на `localhost:8082`.
+Чтобы UI увидел сервер Kafka, после запуска контейнеров в необходимо зайти на UI и добавить кластер Kafka:
+- Указать произвольный Cluster name
+- Bootstrap Servers: `kafka:9092`
+- Metrics: 
+  - metrics type: `JMX`
+  - port: `9997`
 
-Пример: `localhost:9092`
+Адрес сервера Kafka находится в переменной окружения `KAFKA_BOOTSTRAP_SERVERS` в
+`configuration/kafka-config/src/main/resources/application-kafka.yml`. 
+Если планируется использовать свой сервер Kafka, необходимо передать адрес сервера 
+в переменную и убрать разворачивание Kafka из скрипта `star-kafka-services.sh`.
