@@ -1,8 +1,8 @@
 package com.dimfunky.orderapi.producer;
 
 import com.dimfunky.kafkaconfig.KafkaProducerProperties;
-import com.dimfunky.orderapi.dto.CancelOrderRequest;
-import com.dimfunky.orderapi.dto.CreateOrderRequest;
+import com.dimfunky.commons.dto.CancelOrderRequest;
+import com.dimfunky.commons.dto.CreateOrderRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

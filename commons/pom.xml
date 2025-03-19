@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dimfunky.order.api</groupId>
-    <artifactId>order-api</artifactId>
+    <groupId>com.dimfunky.order.commons</groupId>
+    <artifactId>commons</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 
-    <name>Kafka Order Service | Order Api</name>
+    <name>Kafka Order Service | Commons</name>
     <packaging>jar</packaging>
 
     <parent>
@@ -20,11 +20,6 @@
         <dependency>
             <groupId>com.dimfunky.order.config.kafka</groupId>
             <artifactId>kafka-config</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.dimfunky.order.commons</groupId>
-            <artifactId>commons</artifactId>
             <version>1.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

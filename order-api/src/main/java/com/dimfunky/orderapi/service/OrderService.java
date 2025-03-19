@@ -1,7 +1,7 @@
 package com.dimfunky.orderapi.service;
 
-import com.dimfunky.orderapi.dto.CancelOrderRequest;
-import com.dimfunky.orderapi.dto.CreateOrderRequest;
+import com.dimfunky.commons.dto.CancelOrderRequest;
+import com.dimfunky.commons.dto.CreateOrderRequest;
 import com.dimfunky.orderapi.producer.OrderRequestProducer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

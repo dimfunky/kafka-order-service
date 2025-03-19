@@ -1,4 +1,4 @@
-package com.dimfunky.orderapi.dto;
+package com.dimfunky.commons.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
