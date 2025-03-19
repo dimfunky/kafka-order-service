@@ -17,8 +17,9 @@
     </parent>
 
     <modules>
-        <module>order-api</module>
+        <module>commons</module>
         <module>configuration</module>
+        <module>order-api</module>
     </modules>
 
     <properties>

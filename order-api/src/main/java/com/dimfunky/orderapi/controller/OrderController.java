@@ -1,7 +1,7 @@
 package com.dimfunky.orderapi.controller;
 
-import com.dimfunky.orderapi.dto.CancelOrderRequest;
-import com.dimfunky.orderapi.dto.CreateOrderRequest;
+import com.dimfunky.commons.dto.CancelOrderRequest;
+import com.dimfunky.commons.dto.CreateOrderRequest;
 import com.dimfunky.orderapi.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

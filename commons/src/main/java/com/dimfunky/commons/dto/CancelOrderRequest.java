@@ -1,4 +1,4 @@
-package com.dimfunky.orderapi.dto;
+package com.dimfunky.commons.dto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
